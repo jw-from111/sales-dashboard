@@ -62,19 +62,6 @@
 
 ---
 
-## 🛠 Tech Stack
-
-| Category        | Technology |
-| --------------- | ---------- |
-| Frontend        | React      |
-| Chart           | Recharts   |
-| Excel Parsing   | XLSX       |
-| Language        | JavaScript |
-| Deployment      | Vercel     |
-| Version Control | GitHub     |
-
----
-
 ## 📂 데이터 구조
 
 | 컬럼        | 설명      |
