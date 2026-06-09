@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-👉 sales-dashboard-three-navy.vercel.app
+👉 https://sales-dashboard-three-navy.vercel.app
 
 ---
 
