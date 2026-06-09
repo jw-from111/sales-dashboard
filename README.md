@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 📊 Excel 업로드 기반 영업관리 BI 대시보드
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+엑셀 파일(.xlsx)을 업로드하면 영업 실적 데이터를 자동 분석하여 KPI, 매출 현황, 상품 분석, 만기 계약 현황 등을 시각화하는 웹 기반 BI 대시보드입니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+👉 https://여기에-vercel-주소
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 프로젝트 미리보기
 
-### `npm test`
+### 메인 대시보드
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+(스크린샷 첨부)
 
-### `npm run build`
+### 상품별 매출 분석
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+(스크린샷 첨부)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 만기 계약 관리
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+(스크린샷 첨부)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ✨ 주요 기능
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### KPI 분석
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* 총 매출
+* 계약 건수
+* 활성 계약 수
+* 평균 계약 금액
+* 평균 계약 기간
+* 만기 예정 계약 수
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 매출 분석
 
-## Learn More
+* 지역별 매출
+* 상품별 매출
+* 계약형태별 매출
+* 보험별 매출
+* 연령별 계약 현황
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 계약 관리
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* 7일 / 30일 / 60일 이내 만기 조회
+* 만기 예정 계약 리스트
+* 자동 인사이트 제공
 
-### Code Splitting
+### 데이터 업로드
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Excel(.xlsx, .xls) 지원
+* 샘플 데이터 제공
+* 업로드 즉시 대시보드 자동 갱신
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🛠 Tech Stack
 
-### Making a Progressive Web App
+| Category        | Technology |
+| --------------- | ---------- |
+| Frontend        | React      |
+| Chart           | Recharts   |
+| Excel Parsing   | XLSX       |
+| Language        | JavaScript |
+| Deployment      | Vercel     |
+| Version Control | GitHub     |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📂 데이터 구조
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+| 컬럼        | 설명      |
+| --------- | ------- |
+| Region    | 지역      |
+| Contract  | 계약 형태   |
+| Month     | 계약 개월 수 |
+| Product   | 상품      |
+| Age       | 연령      |
+| Insurance | 보험 종류   |
+| Start     | 계약 시작일  |
+| Paid      | 월 금액    |
+| End       | 계약 종료일  |
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 💰 매출 계산 방식
 
-### `npm run build` fails to minify
+```text
+계약 매출액 = Paid × Month
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🎯 개발 목적
+
+* 반복적인 엑셀 분석 업무 자동화
+* 영업 KPI 실시간 확인
+* 데이터 기반 의사결정 지원
+* 만기 계약 관리 효율화
+* BI 대시보드 구현 경험 확보
+
+---
+
+## 🔗 배포
+
+Vercel을 통해 배포하였으며 GitHub와 연동하여 자동 배포됩니다.
