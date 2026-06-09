@@ -24,7 +24,7 @@
 
 ### 만기 계약 관리
 
-<img width="1892" height="3392" alt="image" src="https://github.com/user-attachments/assets/aaa41c41-827f-446e-b7d0-bb2dbfe1e5cb" />
+<img width="1892" height="794" alt="image" src="https://github.com/user-attachments/assets/6912dfc8-b883-47ea-ad71-70ec88fc2286" />
 
 
 ---
