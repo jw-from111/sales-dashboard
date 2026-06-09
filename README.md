@@ -14,7 +14,8 @@
 
 ### 메인 대시보드
 
-(스크린샷 첨부)
+<img width="1892" height="1490" alt="image" src="https://github.com/user-attachments/assets/a99d8880-18e7-4546-89da-7ab1b1dff3dd" />
+
 
 ### 상품별 매출 분석
 
