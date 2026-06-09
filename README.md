@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-👉 https://여기에-vercel-주소
+👉 sales-dashboard-three-navy.vercel.app
 
 ---
 
